@@ -12,9 +12,16 @@ https://ai-healthcare-assistant-e66r.vercel.app
 - Database: MongoDB
 
 ## 📂 Project Structure
-- frontend/ → React app
-- backend/ → Node.js API
-- ai-service/ → Flask ML model
+AI-Healthcare-Assistant/
+│
+├── frontend/ # React Application
+├── backend/ # Express API
+├── ai-service/ # Flask ML Service
+│
+├── .env.example
+├── .gitignore
+├── README.md
+├── PROJECT_COMPLETE.md
 
 ## ✨ Features
 - Symptom-based disease prediction
